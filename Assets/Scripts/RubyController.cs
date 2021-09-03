@@ -16,6 +16,13 @@ public class RubyController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
+        // sla-ppy: hello i am changing this line of code, what are you changing?
+        float slappy = 5.0f;
+
+
+        // sla-ppy: im from the future, and i am changing this line from newbranch
+        float slappyfromfuture = 5.0f;
+
         Vector2 position = transform.position; // current position
         position.x = position.x + 3.0f * horizontal * Time.deltaTime; // change
         position.y = position.y + 3.0f * vertical * Time.deltaTime;
